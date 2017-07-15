@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  align-items: center;
+  color: #b8b8b8;
+
+  .input {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .radioIcon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+  }
+
+  .checked {
+    border: 1px solid #8a88fa;
+    background-color: #8a88fa;
+  }
+}
