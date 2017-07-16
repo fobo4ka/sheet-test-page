@@ -27,7 +27,7 @@
 
   &.success {
     .icon {
-      background: url('/public/images/icons/success.svg');
+      background: url('../../../public/images/icons/success.svg');
     }
 
     .text {
@@ -37,7 +37,7 @@
 
   &.fail {
     .icon {
-      background: url('/public/images/icons/fail.svg');
+      background: url('../../../public/images/icons/fail.svg');
     }
   }
 }
