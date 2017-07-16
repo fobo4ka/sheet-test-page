@@ -197,15 +197,15 @@ class Form extends React.Component {
               </div>
             </div>
             <div className={css.item}>
-              <p className={textClassNames}>На почту придет отчет
-                о заказе, по телефону
-                с вами свяжется
-                наш сотрудник!
-              </p>
               <div className={css.infoIcon}></div>
               <p className={css.info}>Если вы покупаете гентест
                   в подарок, необходимо указывать
                   свои данные
+              </p>
+              <p className={css.info}>На почту придет отчет
+                о заказе, по телефону
+                с вами свяжется
+                наш сотрудник!
               </p>
             </div>
          </div>

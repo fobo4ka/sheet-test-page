@@ -14,7 +14,6 @@
     .formInputs {
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
       flex: 1 66%;
 
       .formInput {
@@ -26,15 +25,17 @@
 
     .item {
         display: flex;
+        align-items: center;
         flex: 1 33%;
-
-        .textHidden {
-          display: none;
-        }
     }
 
     .info {
       margin: 0 20px;
+
+      &:last-child {
+        display: none;
+        text-align: right;
+      }
     }
 
     .infoIcon {
@@ -87,7 +88,7 @@
   }
 }
 
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 900px) {
   .root {
     right: 20px;
     left: 20px;
@@ -111,6 +112,11 @@
           margin: 0 35px;
         }
       }
+
+      .infoIcon {
+        order: 2;
+      }
+
       .item {
         flex: 1 100%;
         padding: 0;
@@ -120,11 +126,12 @@
         .info {
           flex: 2 50%;
           margin: 0 20px;
-        }
+          order: 3;
 
-        .textHidden {
-          display: inline-block;
-          text-align: right;
+          &:last-child {
+            display: inline-flex;
+            order: 1;
+          }
         }
       }
     }
@@ -132,7 +139,7 @@
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 590px) {
   .root {
     right: 24px;
     left: 24px;
@@ -141,13 +148,26 @@
       padding: 20px;
 
       .item {
+        position: relative;
         width: 100%;
         padding: 0;
         margin: 0 0 20px 0;
         align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
 
-        &:last-child {
-          margin: 0;
+        .infoIcon {
+          position: absolute;
+          top: 15px;
+        }
+
+        .info {
+          padding: 0 0 0 80px;
+          margin: 15px 0 0 0;
+
+          &:last-child {
+            text-align: left;
+          }
         }
       }
     }
@@ -161,14 +181,6 @@
         .formInput {
           width: 100%;
           margin: 10px 0;
-        }
-      }
-
-      .item {
-        flex-direction: column;
-
-        .info {
-
         }
       }
     }
