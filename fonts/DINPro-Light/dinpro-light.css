@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DINProLight';
+    src: url('dinpro-light.eot');
+    src: url('dinpro-light.eot') format('embedded-opentype'),
+         url('dinpro-light.woff2') format('woff2'),
+         url('dinpro-light.woff') format('woff'),
+         url('dinpro-light.ttf') format('truetype'),
+         url('dinpro-light.svg#DINProLight') format('svg');
+}

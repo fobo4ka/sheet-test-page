@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DINProBold';
+    src: url('dinpro-bold.eot');
+    src: url('dinpro-bold.eot') format('embedded-opentype'),
+         url('dinpro-bold.woff2') format('woff2'),
+         url('dinpro-bold.woff') format('woff'),
+         url('dinpro-bold.ttf') format('truetype'),
+         url('dinpro-bold.svg#DINProBold') format('svg');
+}

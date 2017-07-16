@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DINProBlack';
+    src: url('dinpro-black.eot');
+    src: url('dinpro-black.eot') format('embedded-opentype'),
+         url('dinpro-black.woff2') format('woff2'),
+         url('dinpro-black.woff') format('woff'),
+         url('dinpro-black.ttf') format('truetype'),
+         url('dinpro-black.svg#DINProBlack') format('svg');
+}
