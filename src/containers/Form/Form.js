@@ -8,6 +8,10 @@ import FormItem from '../../components/FormItem/FormItem.js';
 import Button from '../../components/Button/Button.js';
 import classNames from 'classnames';
 import css from './Form.scss';
+import CarIcon from '../../../public/images/icons/car.svg';
+import BagIcon from '../../../public/images/icons/bag.svg';
+import CardIcon from '../../../public/images/icons/card.svg';
+import CashIcon from '../../../public/images/icons/cash.svg';
 
 class Form extends React.Component {
 
@@ -21,14 +25,14 @@ class Form extends React.Component {
       {
         type: 'courier',
         label: 'Курьером',
-        img: '/images/icons/car.svg',
+        img: CarIcon,
         checked: false,
         bigIcon: false
 
       }, {
         type: 'pickup',
         label: 'Самовывоз',
-        img: '/images/icons/bag.svg',
+        img: BagIcon,
         checked: false,
         bigIcon: true
       }
@@ -37,14 +41,14 @@ class Form extends React.Component {
       {
         type: 'card',
         label: 'Картой',
-        img: '/images/icons/card.svg',
+        img: CardIcon,
         checked: false,
         bigIcon: false
 
       }, {
         type: 'cash',
         label: 'Наличными',
-        img: '/images/icons/cash.svg',
+        img: CashIcon,
         checked: false,
         bigIcon: false
       }

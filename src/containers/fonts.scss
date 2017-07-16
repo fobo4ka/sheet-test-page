@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'DinPro';
+  src: url('../../public/fonts/DINPro-Light/dinpro-light.eot'); /* IE9 Compat Modes */
+  src: url('../../public/fonts/DINPro-Light/dinpro-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../public/fonts/DINPro-Light/dinpro-light.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../public/fonts/DINPro-Light/dinpro-light.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../public/fonts/DINPro-Light/dinpro-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../../public/fonts/DINPro-Light/dinpro-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'DinPro';
+  src: url('../../public/fonts/DINPro-Regular/dinpro-regular.eot'); /* IE9 Compat Modes */
+  src: url('../../public/fonts/DINPro-Regular/dinpro-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../public/fonts/DINPro-Regular/dinpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../public/fonts/DINPro-Regular/dinpro-regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../public/fonts/DINPro-Regular/dinpro-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../../public/fonts/DINPro-Regular/dinpro-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DinPro';
+  src: url('../../public/fonts/DINPro-Medium/dinpro-medium.eot'); /* IE9 Compat Modes */
+  src: url('../../public/fonts/DINPro-Medium/dinpro-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../public/fonts/DINPro-Medium/dinpro-medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../public/fonts/DINPro-Medium/dinpro-medium.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../public/fonts/DINPro-Medium/dinpro-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../../public/fonts/DINPro-Medium/dinpro-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'DinPro';
+  src: url('../../public/fonts/DINPro-Bold/dinpro-bold.eot'); /* IE9 Compat Modes */
+  src: url('../../public/fonts/DINPro-Bold/dinpro-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../public/fonts/DINPro-Bold/dinpro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../public/fonts/DINPro-Bold/dinpro-bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../public/fonts/DINPro-Bold/dinpro-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../../public/fonts/DINPro-Bold/dinpro-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 800;
+}

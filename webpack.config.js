@@ -11,7 +11,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    filename: 'index_bundle.js',
   },
   module: {
     loaders: [
@@ -21,7 +21,18 @@ module.exports = {
         query: {
             presets:["es2015", "stage-0", "react"]
         }
-      }, { 
+      },
+
+      {
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|json|xml|ico)$/,
+        loader: 'file-loader',
+        query: {
+          outputPath: 'assets/',
+          emitFile: true
+        }
+      },
+
+      {
         test: /\.(sass|scss)$/, use: [
         'style-loader',
         'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',

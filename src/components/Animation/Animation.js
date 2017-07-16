@@ -1,5 +1,7 @@
 import React, { PropTypes, Component } from 'react';
 
+const pathToImages = require.context('../../../public/images/box', false, /\.png$/);
+
 const ANIMATION_DURATION = 4000;
 const IMAGE_WIDTH = 1920;
 const IMAGE_HEIGHT = 1080;
@@ -37,7 +39,8 @@ pad2 = (i) => {
 loadImages = () => {
     let promises = [];
     for (let i = 0; i < NUM_OF_IMAGES; i++) {
-        promises.push(this.getImage('/images/box/BOX1_000' + this.pad2(i) + '.png'));
+        const name = './BOX1_000' + this.pad2(i) + '.png';
+        promises.push(this.getImage(pathToImages(name)));
     }
     return Promise.all(promises);
 }
